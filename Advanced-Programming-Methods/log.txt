@@ -1,0 +1,36 @@
+Execution Stack : 
+[(If athen v=2else v=3,Print (v)), a=2-2]
+Symbol Table : 
+{}
+Output :
+[]
+Execution Stack : 
+[(If athen v=2else v=3,Print (v))]
+Symbol Table : 
+{a=0}
+Output :
+[]
+Execution Stack : 
+[Print (v), If athen v=2else v=3]
+Symbol Table : 
+{a=0}
+Output :
+[]
+Execution Stack : 
+[Print (v), v=3]
+Symbol Table : 
+{a=0}
+Output :
+[]
+Execution Stack : 
+[Print (v)]
+Symbol Table : 
+{a=0, v=3}
+Output :
+[]
+Execution Stack : 
+[]
+Symbol Table : 
+{a=0, v=3}
+Output :
+[3]
